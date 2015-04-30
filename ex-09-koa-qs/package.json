@@ -1,15 +1,14 @@
 {
-  "name": "ex-3-fs-read-promise",
+  "name": "ex-09-koa-qs",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.25"
+    "koa": "^0.19.1"
   }
 }

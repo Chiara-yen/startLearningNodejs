@@ -1,5 +1,5 @@
 {
-  "name": "ex-6-koa-next",
+  "name": "ex-04-fs-read-co",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^0.19.1"
+    "bluebird": "^2.9.25",
+    "co": "^4.5.2"
   }
 }

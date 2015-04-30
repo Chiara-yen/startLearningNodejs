@@ -1,16 +1,15 @@
 {
-  "name": "ex-4-fs-read-co",
+  "name": "ex-08-express-qs",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node --harmony-generators app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.25",
-    "co": "^4.5.2"
+    "express": "^4.12.3"
   }
 }
