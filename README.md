@@ -24,7 +24,9 @@ it is for practicing node.js
 - ex-20: koa body parser
 - ex-21: express supertest
 - ex-22: koa supertest
+- ex-23: express static server
+- ex-24: koa static server
 
-- ex-31: electron hello world
+- exx-01: electron hello world
 
-// TODO: cookie, session, formidable, multi-router, electron
+// TODO: static, session, formidable, multi-router, electron

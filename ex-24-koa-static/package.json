@@ -1,0 +1,15 @@
+{
+  "name": "ex-24-koa-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony-generators app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa-static": "^1.4.9"
+  }
+}
