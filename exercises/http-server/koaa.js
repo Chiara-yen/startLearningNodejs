@@ -1,8 +1,16 @@
 var koa = require('koa');
 var app = koa();
+var http = require('http');
 var Promise = require('bluebird');
 var readFile = Promise.promisify(require('fs').readFile);
 
+
+exports.start = start;
+
+
+function start() {
+	http.createServer(app.callback()).listen(3000);
+}
 
 app.use(function *(next) {
 	var text = yield readFile(__dirname + '/hello.txt');
@@ -16,15 +24,13 @@ app.use(function *(next) {
 	try {
 		yield next;
 	} catch (e) {
-		console.log('TIM');
+		console.log('boooom!!! there is an error!');
 	}
 
 });
 
 app.use(function *() {
-	throw new Error('boooom');
+	// throw new Error('boooom');
 	this.body += ' Roth2!';
 });
 
-
-app.listen(3000);

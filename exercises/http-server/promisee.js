@@ -3,7 +3,14 @@ var Promise = require('bluebird');
 var readFile = Promise.promisify(require('fs').readFile);
 
 
-http.createServer(function(request, response) {
+exports.start = start;
+
+
+function start() {
+	http.createServer(responseHelloWorld).listen(3000);
+}
+
+function responseHelloWorld (request, response) {
 	response.writeHead(200, {'Content-Type':'text/plain'});
 
 	readFile(__dirname + '/hello.txt')
@@ -11,8 +18,7 @@ http.createServer(function(request, response) {
 		response.write(text);
 		response.end();
 	});
-
-}).listen(3000);
+}
 
 
 /*

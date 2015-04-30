@@ -4,7 +4,14 @@ var Promise = require('bluebird');
 var readFile = Promise.promisify(require('fs').readFile);
 
 
-http.createServer(function(request, response) {
+exports.start = start;
+
+
+function start() {
+	http.createServer(responseHelloWorld).listen(3000);
+}
+
+function responseHelloWorld (request, response) {
 	response.writeHead(200, {'Content-Type':'text/plain'});
 
 	co(function *() {
@@ -12,8 +19,7 @@ http.createServer(function(request, response) {
 		response.write(text + ' Tim!');
 		response.end();
 	});
-
-}).listen(3000);
+}
 
 
 /* ES7
