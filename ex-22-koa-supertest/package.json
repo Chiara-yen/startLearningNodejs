@@ -1,0 +1,23 @@
+{
+  "name": "ex-22-koa-supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "koa": "^0.20.0",
+    "koa-bodyparser": "^1.5.0",
+    "koa-router": "^4.3.2"
+  }
+}
