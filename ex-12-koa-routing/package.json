@@ -1,5 +1,5 @@
 {
-  "name": "ex-5-fs-read-koa",
+  "name": "ex-12-koa-routing",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.25",
-    "koa": "^0.19.1"
+    "koa": "^0.19.1",
+    "koa-router": "^4.3.2"
   }
 }

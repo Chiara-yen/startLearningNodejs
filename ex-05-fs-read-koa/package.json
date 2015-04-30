@@ -1,15 +1,16 @@
 {
-  "name": "ex-3-fs-read-promise",
+  "name": "ex-05-fs-read-koa",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node --harmony-generators app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.25"
+    "bluebird": "^2.9.25",
+    "koa": "^0.19.1"
   }
 }
