@@ -48,7 +48,7 @@ describe('subtract', function () {
     try {
       math.subtract(1, 'b');
     } catch (e) {
-      expect( e.message).is.equal('b is not a number');
+      expect(e.message).is.equal('b is not a number');
     }
   });
 
