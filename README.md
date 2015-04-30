@@ -20,4 +20,9 @@ it is for practicing node.js
 - ex-16: mocha (assert)
 - ex-17: mocha + chai (should)
 - ex-18: mocha + chai (expect)
+- ex-19: express body parser
+- ex-20: koa body parser
+- ex-21: express supertest
+- ex-22: koa supertest
 
+// TODO: cookie, session, formidable

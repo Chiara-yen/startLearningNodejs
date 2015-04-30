@@ -1,0 +1,19 @@
+{
+  "name": "ex-21-express-supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0"
+  }
+}

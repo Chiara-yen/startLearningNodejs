@@ -1,7 +1,6 @@
 {
   "name": "ex-20-koa-bodyparser",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node --harmony-generators app.js",
