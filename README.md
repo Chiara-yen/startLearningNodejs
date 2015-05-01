@@ -26,6 +26,8 @@ it is for practicing node.js
 - ex-22: koa supertest
 - ex-23: express static server
 - ex-24: koa static server
+- ex-29: express multi-router
+- ex-30: koa multi-router
 - ex-31: koa server (async-await) + fs read (promise)
 
 
