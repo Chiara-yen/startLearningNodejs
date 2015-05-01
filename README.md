@@ -26,7 +26,7 @@ it is for practicing node.js
 - ex-22: koa supertest
 - ex-23: express static server
 - ex-24: koa static server
-- ex-31
+- ex-31: koa server (async-await) + fs read (promise)
 
 
 - exx-01: electron hello world
