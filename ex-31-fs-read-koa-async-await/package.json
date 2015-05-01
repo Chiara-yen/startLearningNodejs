@@ -1,0 +1,17 @@
+{
+  "name": "ex-31-fs-read-koa-async-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony-generators run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.2.6",
+    "bluebird": "^2.9.25",
+    "koa": "^0.20.0"
+  }
+}

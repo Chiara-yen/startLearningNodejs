@@ -26,7 +26,9 @@ it is for practicing node.js
 - ex-22: koa supertest
 - ex-23: express static server
 - ex-24: koa static server
+- ex-31
+
 
 - exx-01: electron hello world
 
-// TODO: static, session, formidable, multi-router, electron
+// TODO: session, formidable, multi-router
