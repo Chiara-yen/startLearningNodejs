@@ -1,0 +1,16 @@
+{
+  "name": "ex-27-express-formidable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "formidable": "^1.0.17"
+  }
+}
