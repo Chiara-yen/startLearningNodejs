@@ -3,27 +3,29 @@ var session = require('express-session');
 var app = express();
 
 
-app.use(session(session({
+app.use(session({
   secret: 'keyboard cat',
   resave: false,
   saveUninitialized: true
-})));
+}));
+
+app.get('/', function(req, res) {
+  var sess = req.session;
+  if (sess && sess.username) {
+    res.send('Hello ' + sess.username);
+  } else {
+    res.send('Please login');
+  }
+});
 
 app.get('/login', function(req, res) {
   req.session.username = req.query.username;
-});
-
-app.get('/', function() {
-  if (req.session & req.session.username) {
-    res.send('')
-  } else {
-    res.send('')
-  }
+  res.redirect('/');
 });
 
 app.get('/logout', function(req, res) {
   req.session.destroy(function(err) {
-    // cannot access session here
+    res.redirect('/');
   });
 });
 
