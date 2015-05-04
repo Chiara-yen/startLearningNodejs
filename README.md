@@ -37,6 +37,7 @@ it is for practicing node.js
 - ex-33: express server + bcrypt password hash
 - ex-34: debug
 - ex-35: uuid + cuid + lodash.uniqueId
+- ex-36: web parser (superagent + cheerio)
 
 
 - exx-01: electron hello world
