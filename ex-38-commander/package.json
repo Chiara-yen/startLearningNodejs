@@ -7,6 +7,8 @@
     "ex-38-commander": "program.js"
   },
   "scripts": {
+    "short-cut": "node bin/program.js -p -P -b -c tim",
+    "full-option": "node bin/program.js --peppers --pineapple --bbq-sauce --cheese tim",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
