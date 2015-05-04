@@ -1,0 +1,17 @@
+{
+  "name": "ex-28-koa-formidable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony-generators app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "formidable": "^1.0.17",
+    "koa": "^0.20.0"
+  }
+}
