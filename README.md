@@ -48,6 +48,6 @@ it is for practicing node.js
 - ex-44: koa render jade (koa-views)
 - ex-45: csv
 - ex-46: markdown (marked)
-
+- ex-47: xml2js
 
 - exx-01: electron hello world
