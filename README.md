@@ -42,5 +42,6 @@ it is for practicing node.js
 - ex-38: command line program (commander)
 - ex-39: command line program (inquirer)
 - ex-40: express server + bcrypt password hash + bson
+- ex-41: image resize (gm with GraphicsMagick)
 
 - exx-01: electron hello world
