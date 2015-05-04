@@ -8,16 +8,12 @@ var p = new Promise(function(resolve, reject) {
     } else {
       reject(new Error('fail'));
     }
-  }, 1000);
+  }, 5000);
 })
+.timeout(2500)
 .then(function(val) {
   console.log('object: ', JSON.parse(val));
 }, function(err) {
   console.log(err);
-})
-.catch(SyntaxError, function(err) {
-  console.log('SyntaxError catch', err);
-})
-.catch(function(err) {
-  console.log('final catch', err);
 });
+

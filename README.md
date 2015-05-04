@@ -43,7 +43,7 @@ it is for practicing node.js
 - ex-39: command line program (inquirer)
 - ex-40: express server + bcrypt password hash + bson
 - ex-41: image resize (gm with GraphicsMagick)
-
+- ex-42: promise usage (bluebird)
 - ex-43: express render jade
 - ex-44: koa render jade (koa-views)
 
