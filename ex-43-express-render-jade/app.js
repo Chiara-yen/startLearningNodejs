@@ -9,7 +9,7 @@ app.set('view engine', 'jade');
 app.get('/', function(req, res) {
   res.render('index', {
     title: req.query.title || 'Default Title',
-    content: req.query.content || 'Default Content',
+    content: req.query.content || 'Default Content'
   });
 })
 

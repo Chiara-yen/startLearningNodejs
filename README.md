@@ -44,4 +44,7 @@ it is for practicing node.js
 - ex-40: express server + bcrypt password hash + bson
 - ex-41: image resize (gm with GraphicsMagick)
 
+- ex-43: express render jade
+- ex-44: koa render jade (koa-views)
+
 - exx-01: electron hello world

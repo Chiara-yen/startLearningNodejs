@@ -1,0 +1,17 @@
+{
+  "name": "ex-44-koa-render-jade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony-generators app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.9.2",
+    "koa": "^0.20.0",
+    "koa-views": "^3.0.0"
+  }
+}
