@@ -1,9 +1,6 @@
 var express = require('express');
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
-var bcrypt = require('bcrypt');
-var hash = Promise.promisify(bcrypt.hash);
-var compare = Promise.promisify(bcrypt.compare);
 
 var app = express();
 
@@ -17,7 +14,6 @@ if (!exists) {
 
 
 app.get('/signup', function(req, res) {
-  var passwordList;
   var username = req.query.username;
   if (!username) {
     return res.send('need username');
@@ -31,12 +27,8 @@ app.get('/signup', function(req, res) {
     return JSON.parse(buf.toString());
   })
   .then(function(list) {
-    passwordList = list;
-    return hash(password, 10);
-  })
-  .then(function(hashed) {
-    passwordList[username] = hashed;
-    return fs.writeFileAsync(PASSWORD_FILE, JSON.stringify(passwordList));
+    list[username] = password;
+    return fs.writeFileAsync(PASSWORD_FILE, JSON.stringify(list));
   })
   .then(function() {
     res.send('success');
@@ -57,10 +49,7 @@ app.get('/verify', function(req, res) {
     return JSON.parse(buf.toString());
   })
   .then(function(list) {
-    return compare(password, list[username] || '');
-  })
-  .then(function(match) {
-    if (match) {
+    if (password === list[username]) {
       res.send('match');
     } else {
       res.send('not match');

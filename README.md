@@ -33,9 +33,10 @@ it is for practicing node.js
 - ex-29: express multi-router
 - ex-30: koa multi-router
 - ex-31: koa server (async-await) + fs read (promise)
-
+- ex-32: express server + plain text password
 - ex-33: express server + bcrypt password hash
 - ex-34: debug
+- ex-35: uuid + cuid + lodash.uniqueId
 
 
 - exx-01: electron hello world

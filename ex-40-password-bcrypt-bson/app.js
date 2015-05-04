@@ -4,15 +4,17 @@ var fs = Promise.promisifyAll(require('fs'));
 var bcrypt = require('bcrypt');
 var hash = Promise.promisify(bcrypt.hash);
 var compare = Promise.promisify(bcrypt.compare);
+var bson = require('bson');
+var BSON = bson.BSONPure.BSON;
 
 var app = express();
 
-var PASSWORD_FILE = './password.json';
+var PASSWORD_FILE = './password.bson';
 
 var exists = fs.existsSync(PASSWORD_FILE);
 
 if (!exists) {
-  fs.writeFileSync(PASSWORD_FILE, '{}');
+  fs.writeFileSync(PASSWORD_FILE, BSON.serialize({}));
 }
 
 
@@ -28,7 +30,7 @@ app.get('/signup', function(req, res) {
   }
   fs.readFileAsync(PASSWORD_FILE)
   .then(function(buf) {
-    return JSON.parse(buf.toString());
+    return BSON.deserialize(buf);
   })
   .then(function(list) {
     passwordList = list;
@@ -36,7 +38,7 @@ app.get('/signup', function(req, res) {
   })
   .then(function(hashed) {
     passwordList[username] = hashed;
-    return fs.writeFileAsync(PASSWORD_FILE, JSON.stringify(passwordList));
+    return fs.writeFileAsync(PASSWORD_FILE, BSON.serialize(passwordList));
   })
   .then(function() {
     res.send('success');
@@ -54,7 +56,7 @@ app.get('/verify', function(req, res) {
   }
   fs.readFileAsync(PASSWORD_FILE)
   .then(function(buf) {
-    return JSON.parse(buf.toString());
+    return BSON.deserialize(buf);
   })
   .then(function(list) {
     return compare(password, list[username] || '');
