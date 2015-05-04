@@ -1,0 +1,16 @@
+{
+  "name": "ex-35-uuid-cuid-lodash.uniqueId",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cuid": "^1.2.4",
+    "lodash": "^3.8.0",
+    "uuid": "^2.0.1"
+  }
+}
