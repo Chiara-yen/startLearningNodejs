@@ -38,6 +38,9 @@ it is for practicing node.js
 - ex-34: debug
 - ex-35: uuid + cuid + lodash.uniqueId
 - ex-36: web parser (superagent + cheerio)
-
+- ex-37: command line program (minimist)
+- ex-38: command line program (commander)
+- ex-39: command line program (inquirer)
+- ex-40: express server + bcrypt password hash + bson
 
 - exx-01: electron hello world

@@ -15,7 +15,7 @@ inquirer.prompt([
   // list
   {
     type: 'list',
-    name: 'theme',
+    name: 'who',
     message: 'What do you want to do?',
     choices: [
       'Talk to Tim',
