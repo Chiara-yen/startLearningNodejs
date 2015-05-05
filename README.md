@@ -50,5 +50,8 @@ it is for practicing node.js
 - ex-46: markdown (marked)
 - ex-47: xml2js
 - ex-48: glob
+- ex-49: touch + del + mkdirp + rimraf
+- ex-50: express query vs body vs param
+- ex-51: koa query vs body vs param
 
 - exx-01: electron hello world
