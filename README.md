@@ -74,7 +74,7 @@ It is for practicing node.js
 - ex-67: continuous integration (travis-ci)
 
 - ex-69: code coverage integration (coveralls)
-
+- ex-70: mocha-nightmare
 - ex-71: node-blocked
 
 
