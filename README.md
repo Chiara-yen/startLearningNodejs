@@ -55,7 +55,8 @@ it is for practicing node.js
 - ex-51: koa query vs body vs param
 - ex-52: NODE_ENV & nconf
 - ex-53: validator
-
+- ex-54: express csrf (csurf)
+- ex-55: koa csrf (koa-csrf)
 - ex-56: express gzip (compression)
 - ex-57: koa gzip (koa-compress)
 
