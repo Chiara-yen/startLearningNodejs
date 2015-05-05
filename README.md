@@ -63,6 +63,7 @@ it is for practicing node.js
 - ex-59: express socket.io
 - ex-60: koa socket.io
 - ex-61: node dom (jsdom)
+- ex-62: virtual dom
 
 
 - exx-01: electron hello world
