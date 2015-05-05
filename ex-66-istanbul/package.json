@@ -1,0 +1,16 @@
+{
+  "name": "ex-66-istanbul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.4"
+  }
+}

@@ -67,6 +67,7 @@ it is for practicing node.js
 - ex-63: phantomjs
 - ex-64: nightmare
 - ex-65: stub (proxyquire)
+- ex-66: code coverage (istanbul)
 
 - ex-71: node-blocked
 
