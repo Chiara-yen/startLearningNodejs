@@ -1,9 +1,11 @@
 var request = require('superagent');
 var cheerio = require('cheerio');
 
+var URL = 'https://github.com/Chiara-yen/startLearningNodejs';
+
 
 request
-.get('https://github.com/Chiara-yen/startLearningNodejs')
+.get(URL)
 .query({ 'a': 1 }) // ?a=1, for demo
 .end(function(err, res) {
   var $;
