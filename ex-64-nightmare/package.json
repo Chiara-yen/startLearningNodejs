@@ -1,0 +1,14 @@
+{
+  "name": "ex-64-nightmare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightmare": "^1.8.1"
+  }
+}
