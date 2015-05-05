@@ -1,0 +1,17 @@
+{
+  "name": "ex-54-express-csrf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csurf": "^1.8.1",
+    "express": "^4.12.3",
+    "express-session": "^1.11.1"
+  }
+}

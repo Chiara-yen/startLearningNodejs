@@ -1,0 +1,16 @@
+{
+  "name": "ex-57-koa-gzip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony-generators app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^0.20.0",
+    "koa-compress": "^1.0.8"
+  }
+}
