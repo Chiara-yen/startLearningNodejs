@@ -1,0 +1,25 @@
+{
+  "name": "startLearningNodejs",
+  "version": "1.0.0",
+  "description": "test from website: http://www.nodebeginner.org/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha ex-67-travis-ci/test --report lcovonly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chentsulin/startLearningNodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chentsulin/startLearningNodejs/issues"
+  },
+  "homepage": "https://github.com/chentsulin/startLearningNodejs",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.4"
+  }
+}

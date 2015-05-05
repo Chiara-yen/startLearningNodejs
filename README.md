@@ -1,6 +1,9 @@
-test from website: http://www.nodebeginner.org/
+# startLearningNodejs
 
-it is for practicing node.js
+[![Build Status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+
+It is for practicing node.js
 
 - ex-01: node http server hello world
 - ex-02: node http server + fs read
@@ -68,8 +71,17 @@ it is for practicing node.js
 - ex-64: nightmare
 - ex-65: stub (proxyquire)
 - ex-66: code coverage (istanbul)
+- ex-67: continuous integration (travis-ci)
+
+- ex-69: code coverage integration (coveralls)
 
 - ex-71: node-blocked
 
 
 - exx-01: electron hello world
+
+
+[travis-image]: https://travis-ci.org/Chiara-yen/startLearningNodejs.svg
+[travis-url]: https://travis-ci.org/Chiara-yen/startLearningNodejs
+[coveralls-image]: https://img.shields.io/coveralls/Chiara-yen/startLearningNodejs.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/Chiara-yen/startLearningNodejs
