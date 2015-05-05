@@ -1,0 +1,19 @@
+{
+  "name": "ex-52-node_env-nconf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-nconf.js",
+  "scripts": {
+    "production": "NODE_ENV=production node app.js",
+    "development": "NODE_ENV=development node app.js",
+    "testing": "NODE_ENV=testing node app.js",
+    "unrecognized": "NODE_ENV=xxx node app.js",
+    "nconf": "NODE_ENV=production node app-nconf.js --key 1234567890",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.7.1"
+  }
+}
