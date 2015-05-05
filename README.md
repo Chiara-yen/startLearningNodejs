@@ -66,6 +66,7 @@ it is for practicing node.js
 - ex-62: virtual dom
 - ex-63: phantomjs
 - ex-64: nightmare
+- ex-65: stub (proxyquire)
 
 - ex-71: node-blocked
 
