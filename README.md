@@ -61,6 +61,7 @@ it is for practicing node.js
 - ex-57: koa gzip (koa-compress)
 - ex-58: http socket.io
 - ex-59: express socket.io
+- ex-60: koa socket.io
 - ex-61: node dom (jsdom)
 
 
