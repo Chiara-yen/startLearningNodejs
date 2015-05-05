@@ -1,11 +1,14 @@
 {
-  "name": "exx-01-electron",
+  "name": "ex-42-bluebird",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "all.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.25"
+  }
 }

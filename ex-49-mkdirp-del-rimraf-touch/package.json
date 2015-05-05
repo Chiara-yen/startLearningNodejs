@@ -1,0 +1,22 @@
+{
+  "name": "ex-49-mkdirp-del-rimraf-touch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create.js",
+  "scripts": {
+    "create": "node create.js",
+    "delete": "node delete.js",
+    "mkdir-p": "node mkdir-p.js",
+    "rm-rf": "node rm-rf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "del": "^1.1.1",
+    "mkdirp": "^0.5.0",
+    "rimraf": "^2.3.3",
+    "touch": "0.0.3"
+  }
+}

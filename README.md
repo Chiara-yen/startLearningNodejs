@@ -33,6 +33,37 @@ it is for practicing node.js
 - ex-29: express multi-router
 - ex-30: koa multi-router
 - ex-31: koa server (async-await) + fs read (promise)
+- ex-32: express server + plain text password
+- ex-33: express server + bcrypt password hash
+- ex-34: debug
+- ex-35: uuid + cuid + lodash.uniqueId
+- ex-36: web parser (superagent + cheerio)
+- ex-37: command line program (minimist)
+- ex-38: command line program (commander)
+- ex-39: command line program (inquirer)
+- ex-40: express server + bcrypt password hash + bson
+- ex-41: image resize (gm with GraphicsMagick)
+- ex-42: promise usage (bluebird)
+- ex-43: express render jade
+- ex-44: koa render jade (koa-views)
+- ex-45: csv
+- ex-46: markdown (marked)
+- ex-47: xml2js
+- ex-48: glob
+- ex-49: touch + del + mkdirp + rimraf
+- ex-50: express query vs body vs param
+- ex-51: koa query vs body vs param
+- ex-52: NODE_ENV & nconf
+- ex-53: validator
+- ex-54: express csrf (csurf)
+- ex-55: koa csrf (koa-csrf)
+- ex-56: express gzip (compression)
+- ex-57: koa gzip (koa-compress)
+- ex-58: http socket.io
+- ex-59: express socket.io
+- ex-60: koa socket.io
+- ex-61: node dom (jsdom)
+- ex-62: virtual dom
 
 
 - exx-01: electron hello world

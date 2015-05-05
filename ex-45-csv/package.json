@@ -1,0 +1,16 @@
+{
+  "name": "ex-45-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "csv": "^0.4.2"
+  }
+}
