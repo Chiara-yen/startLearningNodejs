@@ -4,7 +4,7 @@ new Nightmare()
   .goto('https://github.com/Chiara-yen/startLearningNodejs')
   .type('.js-site-search-field', 'github nightmare')
   .click('.author a')
-  .wait(5000)
+  .wait()
   .evaluate(function () {
     return document.querySelector('.vcard-username').innerText;
   }, function (name) {
