@@ -1,0 +1,15 @@
+{
+  "name": "ex-58-http-socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^1.3.5"
+  }
+}

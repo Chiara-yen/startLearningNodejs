@@ -59,6 +59,7 @@ it is for practicing node.js
 - ex-55: koa csrf (koa-csrf)
 - ex-56: express gzip (compression)
 - ex-57: koa gzip (koa-compress)
+- ex-58: http socket.io
 
 - ex-61: node dom (jsdom)
 
