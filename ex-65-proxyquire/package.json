@@ -1,0 +1,14 @@
+{
+  "name": "ex-65-proxyquire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "proxyquire": "^1.4.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ex-70-mocha-nightmare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "nightmare": "^1.8.1"
+  }
+}
