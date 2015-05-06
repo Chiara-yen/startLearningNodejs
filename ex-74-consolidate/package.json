@@ -4,6 +4,15 @@
   "description": "",
   "main": "ejs.js",
   "scripts": {
+    "ejs": "node ejs.js",
+    "haml": "node haml.js",
+    "handlebars": "node handlebars.js",
+    "jade": "node jade.js",
+    "lodash": "node lodash.js",
+    "mustache": "node mustache.js",
+    "nunjucks": "node nunjucks.js",
+    "react": "node react.js",
+    "swig": "node swig.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

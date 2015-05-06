@@ -76,7 +76,8 @@ It is for practicing node.js
 - ex-69: code coverage integration (coveralls)
 - ex-70: mocha-nightmare
 - ex-71: node-blocked
-
+- ex-72: esprima
+- ex-73: simple-peer
 - ex-74: template (consolidate)
 
 
