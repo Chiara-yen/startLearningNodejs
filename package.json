@@ -21,5 +21,14 @@
     "chai": "^2.3.0",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "consolidate": "^0.12.1",
+    "ejs": "^2.3.1",
+    "haml": "^0.4.3",
+    "hamljs": "^0.6.2",
+    "jade": "^1.9.2",
+    "simple-peer": "^5.4.3",
+    "wrtc": "0.0.55"
   }
 }

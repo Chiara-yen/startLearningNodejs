@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <h1><%= title %></h1>
+  <div id="app"><%= text %></div>
+</body>
+</html>

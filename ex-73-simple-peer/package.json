@@ -1,0 +1,15 @@
+{
+  "name": "ex-73-simple-peer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-peer": "^5.4.3",
+    "wrtc": "0.0.55"
+  }
+}

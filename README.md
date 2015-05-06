@@ -77,6 +77,8 @@ It is for practicing node.js
 - ex-70: mocha-nightmare
 - ex-71: node-blocked
 
+- ex-74: template (consolidate)
+
 
 - exx-01: electron hello world
 
