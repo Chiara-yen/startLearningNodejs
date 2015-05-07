@@ -1,0 +1,18 @@
+{
+  "name": "ex-80-promise-to-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bluebird.js",
+  "scripts": {
+    "es6": "node es6.js",
+    "bluebird": "node bluebird.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "es6-promise": "^2.1.1",
+    "native-or-bluebird": "^1.2.0"
+  }
+}

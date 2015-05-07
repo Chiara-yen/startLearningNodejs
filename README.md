@@ -79,6 +79,12 @@ It is for practicing node.js
 - ex-72: esprima
 - ex-73: simple-peer
 - ex-74: template (consolidate)
+- ex-75: d3-to-png
+
+- ex-77: benchmark
+- ex-78: redis
+
+- ex-80: promise to native
 
 
 - exx-01: electron hello world

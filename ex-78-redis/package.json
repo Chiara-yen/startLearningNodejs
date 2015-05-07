@@ -1,0 +1,17 @@
+{
+  "name": "ex-78-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "ndoe app.js",
+    "2-clients": "node 2-clients",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hiredis": "^0.3.0",
+    "redis": "^0.12.1"
+  }
+}
