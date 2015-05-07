@@ -89,7 +89,8 @@ It is for practicing node.js
 - ex-82: build express middleware
 - ex-83: build koa middleware
 - ex-84: execute bash
-
+- ex-85: process fork
+- ex-86: levelup
 - ex-87: rethinkdb
 
 - exx-01: electron hello world
