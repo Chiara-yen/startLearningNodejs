@@ -30,6 +30,7 @@
     "haml": "^0.4.3",
     "hamljs": "^0.6.2",
     "jade": "^1.9.2",
+    "koa": "^0.20.0",
     "native-or-bluebird": "^1.2.0",
     "simple-peer": "^5.4.3",
     "wrtc": "0.0.55"

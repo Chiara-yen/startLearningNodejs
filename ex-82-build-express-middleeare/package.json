@@ -1,17 +1,15 @@
 {
-  "name": "ex-78-redis",
+  "name": "ex-82-build-express-middleeare",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "req-decorator.js",
   "scripts": {
     "start": "node app.js",
-    "2-clients": "node 2-clients",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hiredis": "^0.3.0",
-    "redis": "^0.12.1"
+    "express": "^4.12.3"
   }
 }

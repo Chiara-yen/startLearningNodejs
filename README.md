@@ -86,6 +86,8 @@ It is for practicing node.js
 
 - ex-80: promise to native
 - ex-81: event-emitter
+- ex-82: build express middleware
+- ex-83: build koa middleware
 
 - exx-01: electron hello world
 
