@@ -88,6 +88,7 @@ It is for practicing node.js
 - ex-81: event-emitter
 - ex-82: build express middleware
 - ex-83: build koa middleware
+- ex-84: execute bash
 
 - ex-87: rethinkdb
 
