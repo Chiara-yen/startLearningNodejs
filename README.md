@@ -72,10 +72,27 @@ It is for practicing node.js
 - ex-65: stub (proxyquire)
 - ex-66: code coverage (istanbul)
 - ex-67: continuous integration (travis-ci)
-
+- ex-68: spy + stub + fake timer (sinon)
 - ex-69: code coverage integration (coveralls)
 - ex-70: mocha-nightmare
 - ex-71: node-blocked
+- ex-72: esprima
+- ex-73: simple-peer
+- ex-74: template (consolidate)
+- ex-75: d3-to-png
+- ex-76: nodemailer (mailgun)
+- ex-77: benchmark
+- ex-78: redis
+- ex-79: umd (browserify)
+- ex-80: promise to native
+- ex-81: event-emitter
+- ex-82: build express middleware
+- ex-83: build koa middleware
+- ex-84: execute bash
+- ex-85: process fork
+- ex-86: levelup
+- ex-87: rethinkdb
+- ex-88: email-template (jade + stylus)
 
 
 - exx-01: electron hello world

@@ -1,0 +1,16 @@
+{
+  "name": "ex-86-levelup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leveldown": "^1.0.6",
+    "levelup": "^1.0.0-5"
+  }
+}

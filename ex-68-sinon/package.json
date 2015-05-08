@@ -1,0 +1,21 @@
+{
+  "name": "ex-68-sinon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ajax.js",
+  "scripts": {
+    "timer": "node fake-timer.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "jsdom": "^3.1.2"
+  }
+}
