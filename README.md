@@ -80,10 +80,10 @@ It is for practicing node.js
 - ex-73: simple-peer
 - ex-74: template (consolidate)
 - ex-75: d3-to-png
-
+- ex-76: nodemailer (mailgun)
 - ex-77: benchmark
 - ex-78: redis
-
+- ex-79: umd (browserify)
 - ex-80: promise to native
 - ex-81: event-emitter
 - ex-82: build express middleware
