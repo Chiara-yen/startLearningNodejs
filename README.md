@@ -97,7 +97,8 @@ It is for practicing node.js
 
 - exx-01: electron hello world
 - exx-02: github user display (superagent + cheerio)
-
+- exx-03: d3
+- exx-04: cool-face
 
 [travis-image]: https://travis-ci.org/Chiara-yen/startLearningNodejs.svg
 [travis-url]: https://travis-ci.org/Chiara-yen/startLearningNodejs

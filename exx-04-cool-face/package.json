@@ -1,0 +1,14 @@
+{
+  "name": "exx-04-cool-face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.3"
+  }
+}
