@@ -4,20 +4,28 @@
     <title>Hello World!</title>
     <style>
       body {
+        text-align: center;
         background-color: #FFFABA;
       }
       h1 {
         color: #221747;
         text-align: center;
-        line-height: 500px;
+        line-height: 150px;
+      }
+
+      .center-block {
+        width: 190px;
+        margin: 0 auto;
       }
     </style>
   </head>
   <body>
-    <h1>Github Project List</h1>
+    <h1>Github User Search</h1>
     <div id="result"></div>
-    <input type="text" name="keyword">
-    <button id="search-btn" type="button" name="btn">Search</button>
-    <script src="/index.js"></script>
+    <div class="center-block">
+      <input id="keyword" type="text" name="keyword">
+      <button id="search-btn" type="button" name="btn">Search</button>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
