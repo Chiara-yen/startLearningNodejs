@@ -93,6 +93,8 @@ It is for practicing node.js
 - ex-86: levelup
 - ex-87: rethinkdb
 - ex-88: email-template (jade + stylus)
+- ex-89: json-server
+- ex-90: dns resolve
 
 
 - exx-01: electron hello world
